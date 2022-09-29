@@ -27,6 +27,26 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.partenairesLiens{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 1.3em;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -91,7 +111,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -397,10 +417,7 @@ a:hover {
         margin-right: 0px;
         margin-top: 20px;
     }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
+/*suppression toggle*/
 }
 
 .nav > li > .dropdown a {
@@ -476,7 +493,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
+    margin-top: 30px;
 }
 
 .icon-lg {
@@ -675,9 +693,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+/*modif 3: changement taille police de 11px à 15*/
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +719,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px;
 }
 
 h2 {
@@ -814,15 +832,15 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
