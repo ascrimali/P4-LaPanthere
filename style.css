@@ -47,6 +47,10 @@ footer{
     font-size: 1.3em;
 }
 
+.form-group{
+    margin-bottom: 10px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
